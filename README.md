@@ -5,6 +5,15 @@ H2 Buck Turgidson's Big Board website
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![NPM version](https://badge.fury.io/js/package.svg)](http://badge.fury.io/js/package)
 
+resources:
+https://material.io/color/#!/?view.left=1&view.right=1&primary.color=2f3f38&secondary.color=616161
+
+https://codepen.io/dogagenc/pen/xbRKZx
+
+https://fonts.google.com/specimen/Amatic+SC
+https://www.fontspring.com/fonts/facetype/strangelove
+https://fonts.google.com/specimen/Josefin+Sans
+
 
 
 The MIT License (MIT)
