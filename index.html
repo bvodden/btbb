@@ -9,23 +9,44 @@
         <link rel="author" href="humans.txt">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dawning+of+a+New+Day" rel="stylesheet">
-
+        <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     </head>
-    <body>
-        
-        <script src="js/main.js"></script>
+    <body> 
         <div class="main-container">
             <div class="header">-BUCK TURGIDSON'S BIG BOARD-</div>
             <div class="sub-container">
-                <div class="box">Music
-                <p class="music">Listen to the Music! All the time!</p></div>
-                <div class="box">Bio
-                <p class="bio">Learn Buck's deepest secrets and favorite recipes!</p></div>
-                <div class="box">Photos
-                <p class="photos">Some photographs and deguerotypes of the band.</p></div>
-                <div class="box">Contact
-                <p class="contact">Make Contact with your local BTBB fan-group.</p></div>
+                <a href="music.html" class="link">
+                    <div class="box">
+                        <img src="img/bomb.png" alt="A bomb." class="threedee" width=100px >
+                        Music
+                        <p class="music">Listen to the Music! All the time!</p>
+                    </div>
+                </a>
+                <a href="bio.html" class="link"> 
+                <div class="box">     
+                    <img src="img/cloud.png" alt="MushroomCloud" class="threedee" width=100px>
+                    Bio
+                    <p class="bio">Learn Buck's deepest secrets and favorite recipes!</p>
+                </div>
+                </a>
+                <a href="photos.html" class="link">
+                    <div class="box">
+                        <img src="img/b52.svg" alt="B52" class="threedee hilite" width=100px>
+                        Photos
+                        <p class="photos">Some photographs and deguerotypes of the band.</p>
+                    </div>
+                </a>
+                <a href="contact.html" class="link">
+                    <div class="box">
+                        <img src="img/cloud.png" alt="MushroomCloud" class="threedee" width=100px>
+                        Contact
+                        <p class="contact">Make Contact with your local BTBB fan-group.</p>                 
+                    </div>
+                </a>
             </div>
         </div>
+        <script src="src/libs/vanilla-tilt.min.js"></script>
+        <script src="src/index.js"></script>
+        <script src="https://unpkg.com/flubber@0.3.0"></script>
     </body>
 </html>
